@@ -1,4 +1,4 @@
-package src.main.java.myagent;
+package myagent;
 
 import jade.core.Agent;
 import jade.core.AID;
@@ -20,7 +20,7 @@ public class BookBuyerAgent extends Agent {
         if(args != null && args.length > 0){
             targetBookTitle = (String) args[0];
             System.out.println("Trying to buy " + targetBookTitle);
-            addBehaviour(new TickerBehaviour(this, 60000) {
+            addBehaviour(new TickerBehaviour(this, 30000) {
                 @Override
                 protected void onTick() {
                     myAgent.addBehaviour(new RequestPerfomer());

@@ -1,3 +1,10 @@
-src\main\java\myagent\BookBuyerAgent$RequestPerfomer.class
-src\main\java\myagent\BookBuyerAgent$1.class
-src\main\java\myagent\BookBuyerAgent.class
+myagent\BookSellerAgent$PurchaseOrdersServer.class
+myagent\BookSellerAgent.class
+myagent\BookSellerAgent$1.class
+myagent\BookBuyerAgent.class
+myagent\BookSellerGui.class
+myagent\BookBuyerAgent$RequestPerfomer.class
+myagent\BookSellerGui$1.class
+myagent\BookBuyerAgent$1.class
+myagent\BookSellerGui$2.class
+myagent\BookSellerAgent$OfferRequestsServer.class
